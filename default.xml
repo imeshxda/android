@@ -375,7 +375,7 @@
   <project name="Team-Kang-Droid/Crystal_Bean_Ariesve" path="device/samsung/ariesve" remote="github" revision="cb_jellybean-mr1" />
   <project name="Team-Kang-Droid/android_vendor_samsung_ariesve" path="vendor/samsung/ariesve" remote="github" revision="jb-4.2" />
   <project name="krislibaeer/android_frameworks_native" path="frameworks/native" remote="github" revision="jb4.2-TRDS" />
-  <project name="erik96/android_frameworks_av" path="frameworks/av" remote="github" revision="cm-10.1" />
+  <project name="krislibaeer/android_frameworks_av" path="frameworks/av" remote="github" revision="cm-10.1" />
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="github" revision="cm-10.1" />
   <project name="arco/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="github" revision="cm-10.1" />
   <project name="arco/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" remote="github" revision="cm-10.1" />

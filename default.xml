@@ -372,7 +372,7 @@
   <project path="packages/apps/Settings" name="Team-Kang-Droid/packages_apps_Settings" remote="github" revision="jb-mr1" />
   <project path="packages/apps/ROMControl" name="Team-Kang-Droid/packages_apps_ROMControl" remote="github" revision="jb-mr1" />
 
-  <project path="system/core" name="Team-Kang-Droid/system_core" remote="github" revision="jb-mr1" />
+  <project path="system/core" name="Team-Kang-Droid/android_system_core" remote="github" revision="jb-mr1" />
 
   <project path="android" name="Team-Kang-Droid/android" remote="github" revision="master" />
 

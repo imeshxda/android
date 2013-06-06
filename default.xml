@@ -17,24 +17,17 @@
            fetch="https://github.com/"
            review="review.cyanogenmod.com" />
 
-  <remote  name="omapzoom"
-           fetch="git://git.omapzoom.org/"
-           review="http://review.omapzoom.org/" />
-
   <default revision="refs/tags/android-4.2.2_r1.2"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="Team-Kang-Droid/build" remote="github" revision="jb-mr1" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
+
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="CyanogenMod/android_bionic" remote="cm" revision="cm-10.1" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-10.1" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="Team-Kang-Droid/dalvik" remote="github" revision="jb-mr1" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="CyanogenMod/android_device_common" remote="cm" revision="cm-10.1" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
@@ -211,7 +204,6 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="cm" revision="cm-10.1" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" revision="cm-10.1" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/base" name="Team-Kang-Droid/frameworks_base" remote="github" revision="jb-mr1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
@@ -229,7 +221,6 @@
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" remote="cm" revision="cm-10.1" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
-  <project path="frameworks/rs" name="Team-Kang-Droid/android_frameworks_rs" remote="github" revision="jellybean" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
@@ -240,6 +231,7 @@
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="cm" revision="cm-10.1" />
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="github" revision="cm-10.1" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="cm" revision="cm-10.1" />
@@ -253,11 +245,6 @@
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="cm" revision="cm-10.1" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="cm" revision="cm-10.1" />
-  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.1" />
-  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
-  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-10.1" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
@@ -350,7 +337,6 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="Team-Kang-Droid/system_core" remote="github" revision="jb-mr1" />
   <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="jb-mr1" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-10.1" />
@@ -359,24 +345,41 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 
-  <project path="vendor/crystal/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="jb-mr1" />
-
   <project path="vendor/tmobile/apps/ThemeChooser" name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="AOKP/vendor_tmobile_libs_com.tmobile.themes" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="AOKP/vendor_tmobile_providers_ThemeManager" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
 
-  <project path="android" name="Team-Kang-Droid/android" remote="github" revision="master" />
+  <!--Team-Kang-Droid-->
+  <project path="build" name="Team-Kang-Droid/build" remote="github" revision="jb-mr1" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="dalvik" name="Team-Kang-Droid/dalvik" remote="github" revision="jb-mr1" />
 
-
-  <project path="packages/apps/Settings" name="Team-Kang-Droid/packages_apps_Settings" remote="github" revision="jb-mr1" />
-  <project path="packages/apps/ROMControl" name="Team-Kang-Droid/packages_apps_ROMControl" remote="github" revision="jb-mr1" />
-  <project path="vendor/crystal" name="Team-Kang-Droid/android_vendor_crystal" remote="github" revision="4.2.2-mr1" />
+  <!--device-->
   <project name="Team-Kang-Droid/Crystal_Bean_Ariesve" path="device/samsung/ariesve" remote="github" revision="cb_jellybean-mr1" />
-  <project name="Team-Kang-Droid/android_vendor_samsung_ariesve" path="vendor/samsung/ariesve" remote="github" revision="jb-4.2" />
-  <project name="krislibaeer/android_frameworks_native" path="frameworks/native" remote="github" revision="jb4.2-TRDS" />
+
+  <!--frameworks-->
   <project name="krislibaeer/android_frameworks_av" path="frameworks/av" remote="github" revision="cm-10.1" />
-  <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="github" revision="cm-10.1" />
+  <project path="frameworks/base" name="Team-Kang-Droid/frameworks_base" remote="github" revision="jb-mr1" />
+  <project name="krislibaeer/android_frameworks_native" path="frameworks/native" remote="github" revision="jb4.2-TRDS" />
+  <project path="frameworks/rs" name="Team-Kang-Droid/android_frameworks_rs" remote="github" revision="jellybean" />
+
+  <!--hardware-->
   <project name="arco/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="github" revision="cm-10.1" />
   <project name="arco/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" remote="github" revision="cm-10.1" />
+
+  <!--packages-->
+  <project path="packages/apps/Settings" name="Team-Kang-Droid/packages_apps_Settings" remote="github" revision="jb-mr1" />
+  <project path="packages/apps/ROMControl" name="Team-Kang-Droid/packages_apps_ROMControl" remote="github" revision="jb-mr1" />
+
+  <project path="system/core" name="Team-Kang-Droid/system_core" remote="github" revision="jb-mr1" />
+
+  <project path="android" name="Team-Kang-Droid/android" remote="github" revision="master" />
+
+  <!--vendor-->
+  <project path="vendor/crystal/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/crystal" name="Team-Kang-Droid/android_vendor_crystal" remote="github" revision="4.2.2-mr1" />
+  <project name="Team-Kang-Droid/android_vendor_samsung_ariesve" path="vendor/samsung/ariesve" remote="github" revision="jb-4.2" />
+
 </manifest>

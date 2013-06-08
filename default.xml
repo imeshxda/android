@@ -361,7 +361,7 @@
   <project path="dalvik" name="Team-Kang-Droid/dalvik" remote="github" revision="jb-mr1" />
 
   <!--device-->
-  <project name="Team-Kang-Droid/Crystal_Bean_Ariesve" path="device/samsung/ariesve" remote="github" revision="cb_jellybean-mr1" />
+  <project name="Team-Kang-Droid/Crystal_Bean_Ariesve" path="device/samsung/ariesve" remote="github" revision="crystal-4.2_3.4" />
 
   <!--frameworks-->
   <project name="krislibaeer/android_frameworks_av" path="frameworks/av" remote="github" revision="cm-10.1" />

@@ -366,7 +366,7 @@
   <!--frameworks-->
   <project name="krislibaeer/android_frameworks_av" path="frameworks/av" remote="github" revision="cm-10.1" />
   <project path="frameworks/base" name="Team-Kang-Droid/frameworks_base" remote="github" revision="jb-mr1" />
-  <project name="krislibaeer/android_frameworks_native" path="frameworks/native" remote="github" revision="jb4.2-TRDS" />
+  <project name="Team-Kang-Droid/android_frameworks_native" path="frameworks/native" remote="github" revision="jb4.2-TRDS" />
   <project path="frameworks/rs" name="Team-Kang-Droid/android_frameworks_rs" remote="github" revision="jellybean" />
 
   <!--hardware-->

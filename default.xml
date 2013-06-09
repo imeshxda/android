@@ -159,7 +159,7 @@
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssh" name="Root-Box/external_openssh" remote="github" revision="jb-mr1" />
-  <project path="external/openssl" nname="Root-Box/external_openssl" remote="github" revision="jb-mr1" />
+  <project path="external/openssl" name="Root-Box/external_openssl" remote="github" revision="jb-mr1" />
   <project path="external/oprofile" name="UnicornButter/external_oprofile" remote="github" revision="jb-mr1" />
   <project path="external/ping" name="UnicornButter/external_ping" remote="github" revision="jb-mr1" />
   <project path="external/ping6" name="platform/external/ping6" />
@@ -361,7 +361,7 @@
   <!--device-->
   <project name="Team-Kang-Droid/Crystal_Bean_Ariesve" path="device/samsung/ariesve" remote="github" revision="crystal-4.2_3.4" />
 
-  <project path="external/wpa_supplicant_8" name="Team-Kang-Droid/android_external_wpa_supplicant_8" remote="cm" revision="cm-10.1" />
+  <project path="external/wpa_supplicant_8" name="Team-Kang-Droid/android_external_wpa_supplicant_8" remote="github" revision="cm-10.1" />
 
   <!--frameworks-->
   <project name="krislibaeer/android_frameworks_av" path="frameworks/av" remote="github" revision="cm-10.1" />

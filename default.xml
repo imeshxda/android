@@ -376,6 +376,7 @@
   <project path="libcore" name="Team-Kang-Droid/android_libcore" remote="github" revision="cm-10.1"/>
 
   <!--packages-->
+  <project path="packages/apps/HALO" name="ParanoidAndroid/HALO" remote="github" revision="jellybean" />
   <project path="packages/apps/Settings" name="Team-Kang-Droid/packages_apps_Settings" remote="github" revision="jb-mr1" />
   <project path="packages/apps/ROMControl" name="Team-Kang-Droid/packages_apps_ROMControl" remote="github" revision="jb-mr1" />
 

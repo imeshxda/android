@@ -364,7 +364,7 @@
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
 
   <!--Team-Kang-Droid-->
-  <project path="bionic" name="Team-Kang-Droid/android_bionic" remote="cm" revision="cm-10.1" />
+  <project path="bionic" name="Team-Kang-Droid/android_bionic" remote="github" revision="cm-10.1" />
   <project path="build" name="Team-Kang-Droid/build" remote="github" revision="jb-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>

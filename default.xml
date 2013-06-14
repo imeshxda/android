@@ -376,8 +376,6 @@
   <!--device-->
   <project name="Team-Kang-Droid/Crystal_Bean_Ariesve" path="device/samsung/ariesve" remote="github" revision="crystal-4.2_3.4" />
 
-  <project path="external/wpa_supplicant_8" name="Team-Kang-Droid/android_external_wpa_supplicant_8" remote="github" revision="cm-10.1" />
-
   <!--frameworks-->
   <project name="Team-Kang-Droid/android_frameworks_av" path="frameworks/av" remote="github" revision="cm-10.1" />
   <project path="frameworks/base" name="Team-Kang-Droid/frameworks_base" remote="github" revision="jb-mr1" />

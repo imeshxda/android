@@ -370,7 +370,7 @@
   <project path="frameworks/rs" name="Team-Kang-Droid/android_frameworks_rs" remote="github" revision="jellybean" />
 
   <!--hardware-->
-  <project name="arco/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="github" revision="cm-10.1" />
+  <project name="Team-Kang-Droid/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="github" revision="cm-10.1" />
   <project name="arco/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" remote="github" revision="cm-10.1" />
 
   <!--packages-->

@@ -376,7 +376,7 @@
   <project path="packages/apps/HALO" name="ParanoidAndroid/HALO" remote="github" revision="jellybean" />
   <project path="packages/apps/Settings" name="Team-Kang-Droid/packages_apps_Settings" remote="github" revision="jb-mr1" />
   <project path="packages/apps/ROMControl" name="Team-Kang-Droid/packages_apps_ROMControl" remote="github" revision="jb-mr1" />
-  <project name="erik96/android_packages_apps_PerformanceControl" path="packages/apps/PerformanceControl" remote="github" revision="jb2" />
+  <project path="packages/apps/PerformanceControl" name="erik96/android_packages_apps_PerformanceControl" remote="github" revision="jb2" />
 
   <project path="system/core" name="Team-Kang-Droid/android_system_core" remote="github" revision="jb-mr1" />
 

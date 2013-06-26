@@ -272,7 +272,6 @@
   <project path="packages/apps/Nfc" name="AOKP/packages_apps_Nfc" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/PackageInstaller" name="Root-Box/packages_apps_PackageInstaller" remote="github" revision="jb-mr1" />
   <project path="packages/apps/PermissionsManager" name="AOKP/packages_apps_PermissionsManager" remote="aokp" revision="jb-mr1" /> 
-  <project path="packages/apps/Phone" name="LiquidSmooth/android_packages_apps_Phone" remote="github" revision="jb2" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="AOKP/packages_apps_QuickSearchBox" remote="aokp" revision="jb-mr1" />
@@ -375,9 +374,10 @@
 
   <!--packages-->
   <project path="packages/apps/HALO" name="ParanoidAndroid/HALO" remote="github" revision="jellybean" />
-  <project path="packages/apps/Settings" name="Team-Kang-Droid/packages_apps_Settings" remote="github" revision="jb-mr1" />
+  <project path="packages/apps/Phone" name="Team-Kang-Droid/android_packages_apps_Phone" remote="github" revision="jb-mr1" />
   <project path="packages/apps/ROMControl" name="Team-Kang-Droid/packages_apps_ROMControl" remote="github" revision="jb-mr1" />
   <project path="packages/apps/PerformanceControl" name="erik96/android_packages_apps_PerformanceControl" remote="github" revision="jb2" />
+  <project path="packages/apps/Settings" name="Team-Kang-Droid/packages_apps_Settings" remote="github" revision="jb-mr1" />
 
   <project path="system/core" name="Team-Kang-Droid/android_system_core" remote="github" revision="jb-mr1" />
 

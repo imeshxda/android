@@ -354,7 +354,7 @@
   <project path="build" name="Team-Kang-Droid/build" remote="github" revision="jb-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="dalvik" name="Team-Kang-Droid/dalvik" remote="github" revision="jb-mr1" />
+  <project path="dalvik" name="Team-Kang-Droid/dalvik" remote="github" revision="cm-10.1" />
 
   <!--device-->
   <project name="Team-Kang-Droid/Crystal_Bean_Ariesve" path="device/samsung/ariesve" remote="github" revision="crystal-4.2_3.4" />

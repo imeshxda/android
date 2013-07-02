@@ -255,7 +255,6 @@
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CDMATools" name="AOKP/packages_apps_CDMATools" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="AOKP/packages_apps_Contacts" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" remote="github" revision="jb4.2" />
   <project path="packages/apps/DeskClock" name="AOKP/packages_apps_DeskClock" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Email" name="AOKP/packages_apps_Email" remote="aokp" revision="jb-mr1" />
@@ -373,6 +372,7 @@
   <project path="libcore" name="Team-Kang-Droid/android_libcore" remote="github" revision="cm-10.1"/>
 
   <!--packages-->
+  <project path="packages/apps/Contacts" name="Team-Kang-Droid/packages_apps_Contacts" remote="github" revision="jb-mr1" />
   <project path="packages/apps/HALO" name="ParanoidAndroid/HALO" remote="github" revision="jellybean" />
   <project path="packages/apps/Mms" name="Team-Kang-Droid/packages_apps_Mms" remote="github" revision="jb4.2" />
   <project path="packages/apps/Phone" name="Team-Kang-Droid/packages_apps_Phone" remote="github" revision="jb-mr1" />

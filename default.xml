@@ -266,6 +266,7 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="AOKP/packages_apps_Launcher2" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
+  <project path="packages/apps/Mms" name="PAC-man/android_packages_apps_Mms" remote="github" revision="cm-10.1" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="AOKP/packages_apps_Nfc" remote="aokp" revision="jb-mr1" />
@@ -374,7 +375,6 @@
   <!--packages-->
   <project path="packages/apps/Contacts" name="Team-Kang-Droid/packages_apps_Contacts" remote="github" revision="jb-mr1" />
   <project path="packages/apps/HALO" name="ParanoidAndroid/HALO" remote="github" revision="jellybean" />
-  <project path="packages/apps/Mms" name="Team-Kang-Droid/android_packages_apps_Mms" remote="github" revision="jb4.2" />
   <project path="packages/apps/Phone" name="Team-Kang-Droid/packages_apps_Phone" remote="github" revision="jb-mr1" />
   <project path="packages/apps/ROMControl" name="Team-Kang-Droid/packages_apps_ROMControl" remote="github" revision="jb-mr1" />
   <project path="packages/apps/PerformanceControl" name="erik96/android_packages_apps_PerformanceControl" remote="github" revision="jb2" />

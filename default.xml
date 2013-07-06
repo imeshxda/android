@@ -28,6 +28,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-10.1" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
+  <project path="dalvik" name="IceColdJelly42/android_dalvik" remote="github" revision="jb-mr1" />
   <project path="development" name="IceColdJelly42/android_development" remote="github" revision="cm-10.1" />
   <project path="device/common" name="CyanogenMod/android_device_common" remote="cm" revision="cm-10.1" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
@@ -354,7 +355,6 @@
   <project path="build" name="Team-Kang-Droid/build" remote="github" revision="jb-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="dalvik" name="Team-Kang-Droid/dalvik" remote="github" revision="cm-10.1" />
   <project path="packages/apps/CrystalPapers" name="Team-Kang-Droid/android_packages_apps_CrystalPapers" remote="github" revision="master"/>
 
   <!--device-->

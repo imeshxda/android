@@ -360,43 +360,43 @@
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
 
   <!--Team-Kang-Droid-->
-  <project path="build" name="Team-Kang-Droid/build" remote="tkd" revision="jb-mr1" >
+  <project path="build" name="build" remote="tkd" revision="jb-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="packages/apps/CrystalPapers" name="Team-Kang-Droid/android_packages_apps_CrystalPapers" remote="tkd" revision="master"/>
+  <project path="packages/apps/CrystalPapers" name="android_packages_apps_CrystalPapers" remote="tkd" revision="master"/>
 
   <!--device-->
-  <project name="Team-Kang-Droid/Crystal_Bean_Ariesve" path="device/samsung/ariesve" remote="tkd" revision="crystal-4.2_3.4" />
+  <project name="Crystal_Bean_Ariesve" path="device/samsung/ariesve" remote="tkd" revision="crystal-4.2_3.4" />
 
   <!--frameworks-->
-  <project name="Team-Kang-Droid/android_frameworks_av" path="frameworks/av" remote="tkd" revision="cm-10.1" />
-  <project path="frameworks/base" name="Team-Kang-Droid/frameworks_base" remote="tkd" revision="jb-mr1" />
-  <project name="Team-Kang-Droid/android_frameworks_native" path="frameworks/native" remote="tkd" revision="jb4.2-TRDS" />
+  <project name="android_frameworks_av" path="frameworks/av" remote="tkd" revision="cm-10.1" />
+  <project path="frameworks/base" name="frameworks_base" remote="tkd" revision="jb-mr1" />
+  <project name="android_frameworks_native" path="frameworks/native" remote="tkd" revision="jb4.2-TRDS" />
 
   <!--hardware-->
-  <project name="Team-Kang-Droid/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="tkd" revision="cm-10.1" />
+  <project name="android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="tkd" revision="cm-10.1" />
   <project name="arco/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" remote="github" revision="cm-10.1" />
 
-  <project path="libcore" name="Team-Kang-Droid/android_libcore" remote="tkd" revision="cm-10.1"/>
+  <project path="libcore" name="android_libcore" remote="tkd" revision="cm-10.1"/>
 
   <!--packages-->
-  <project path="packages/apps/Contacts" name="Team-Kang-Droid/packages_apps_Contacts" remote="tkd" revision="jb-mr1" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="tkd" revision="jb-mr1" />
   <project path="packages/apps/HALO" name="ParanoidAndroid/HALO" remote="github" revision="jellybean" />
-  <project path="packages/apps/Mms" name="Team-Kang-Droid/packages_apps_Mms" remote="tkd" revision="jb-mr1" />
-  <project path="packages/apps/Phone" name="Team-Kang-Droid/packages_apps_Phone" remote="tkd" revision="jb-mr1" />
-  <project path="packages/apps/ROMControl" name="Team-Kang-Droid/packages_apps_ROMControl" remote="tkd" revision="jb-mr1" />
+  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="tkd" revision="jb-mr1" />
+  <project path="packages/apps/Phone" name="packages_apps_Phone" remote="tkd" revision="jb-mr1" />
+  <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="tkd" revision="jb-mr1" />
   <project path="packages/apps/PerformanceControl" name="erik96/android_packages_apps_PerformanceControl" remote="github" revision="jb2" />
-  <project path="packages/apps/Settings" name="Team-Kang-Droid/packages_apps_Settings" remote="tkd" revision="jb-mr1" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tkd" revision="jb-mr1" />
 
-  <project path="packages/providers/ContactsProvider" name="Team-Kang-Droid/packages_providers_ContactsProvider" remote="tkd" revision="jb-mr1" />
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="tkd" revision="jb-mr1" />
 
-  <project path="system/core" name="Team-Kang-Droid/android_system_core" remote="tkd" revision="jb-mr1" />
+  <project path="system/core" name="android_system_core" remote="tkd" revision="jb-mr1" />
 
-  <project path="android" name="Team-Kang-Droid/android" remote="tkd" revision="master" />
+  <project path="android" name="android" remote="tkd" revision="master" />
 
   <!--vendor-->
   <project path="vendor/crystal/bot" name="pseudo_buildbot" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/crystal" name="Team-Kang-Droid/android_vendor_crystal" remote="tkd" revision="4.2.2-mr1" />
-  <project name="Team-Kang-Droid/android_vendor_samsung_ariesve" path="vendor/samsung/ariesve" remote="tkd" revision="jb-4.2" />
+  <project path="vendor/crystal" name="android_vendor_crystal" remote="tkd" revision="4.2.2-mr1" />
+  <project name="android_vendor_samsung_ariesve" path="vendor/samsung/ariesve" remote="tkd" revision="jb-4.2" />
 
 </manifest>
